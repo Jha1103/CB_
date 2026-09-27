@@ -1,8 +1,13 @@
 """Flask web application for MF FAQ Assistant."""
+import os
+import sys
+
+# Memory optimization: set before any imports
+os.environ.setdefault("TORCH_DEVICE", "cpu")
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
+
 from flask import Flask, render_template, request, jsonify
-from src.pipeline import process_query
-from src.vector_store import count_chunks
-from src.config import SOURCE_URLS, FLASK_HOST, FLASK_PORT, FLASK_DEBUG
 
 app = Flask(__name__)
 
@@ -16,6 +21,9 @@ def index():
 @app.route("/chat", methods=["POST"])
 def chat():
     """Process a chat message."""
+    # Lazy import to avoid loading heavy modules at startup
+    from src.pipeline import process_query
+
     data = request.get_json()
     query = data.get("query", "").strip()
     session_id = data.get("session_id", "default")
@@ -27,8 +35,15 @@ def chat():
             "source": None,
         })
 
-    result = process_query(query, session_id)
-    return jsonify(result)
+    try:
+        result = process_query(query, session_id)
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({
+            "type": "error",
+            "answer": f"Error: {str(e)}",
+            "source": None,
+        }), 500
 
 
 @app.route("/health")
@@ -36,7 +51,7 @@ def health():
     """Health check endpoint."""
     return jsonify({
         "status": "healthy",
-        "chunks_loaded": count_chunks(),
+        "chunks_loaded": "lazy",
         "embedding_model": "all-MiniLM-L6-v2",
         "vector_db": "chroma",
     })
@@ -45,8 +60,10 @@ def health():
 @app.route("/sources")
 def sources():
     """List source URLs."""
+    from src.config import SOURCE_URLS
     return jsonify({"sources": SOURCE_URLS})
 
 
 if __name__ == "__main__":
-    app.run(host=FLASK_HOST, port=FLASK_PORT, debug=FLASK_DEBUG)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)

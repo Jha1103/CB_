@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """Build the vector store index from structured facts."""
+import os
+import sys
+
+# Set environment variable to use CPU only
+os.environ["TORCH_DEVICE"] = "cpu"
+
 from src.loader import load_structured_facts
 from src.chunker import chunk_scheme_facts
 from src.vector_store import add_chunks, clear_collection, count_chunks

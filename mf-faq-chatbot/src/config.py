@@ -1,4 +1,5 @@
 """Configuration constants for MF FAQ Assistant."""
+import os
 from pathlib import Path
 
 # Paths
@@ -24,6 +25,11 @@ RELEVANCE_THRESHOLD = 0.55
 FLASK_HOST = "127.0.0.1"
 FLASK_PORT = 5000
 FLASK_DEBUG = True
+
+# Memory optimization for Render free tier
+os.environ.setdefault("TORCH_DEVICE", "cpu")
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
 
 # Source URLs
 SOURCE_URLS = {

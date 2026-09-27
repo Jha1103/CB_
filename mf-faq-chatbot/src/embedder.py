@@ -1,15 +1,15 @@
 """Generate embeddings using sentence-transformers."""
-from sentence_transformers import SentenceTransformer
-from typing import List
+from typing import List, Optional
 from src.config import EMBEDDING_MODEL
 
 _model = None
 
 
 def get_model():
-    """Lazy-load the embedding model."""
+    """Lazy-load the embedding model (only loads when first called)."""
     global _model
     if _model is None:
+        from sentence_transformers import SentenceTransformer
         _model = SentenceTransformer(EMBEDDING_MODEL)
     return _model
 

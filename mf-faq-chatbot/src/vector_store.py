@@ -17,7 +17,7 @@ def get_client():
 
 
 def get_collection():
-    """Get or create the collection."""
+    """Get or create the collection (lazy-loaded)."""
     global _collection
     if _collection is None:
         client = get_client()
