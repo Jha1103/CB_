@@ -1,0 +1,299 @@
+{
+  "schemes": [
+    {
+      "name": "HDFC Large Cap Fund Direct Growth",
+      "slug": "hdfc-large-cap-fund-direct-growth",
+      "category": "Equity - Large Cap",
+      "risk_level": "Very High",
+      "expense_ratio": "1.03%",
+      "min_sip": "₹100",
+      "min_lumpsum": "₹100",
+      "exit_load": "1% if redeemed within 1 year",
+      "benchmark": "NIFTY 100 Total Return Index",
+      "fund_managers": [
+        {
+          "name": "Rahul Baijal",
+          "since": "Jul 2022"
+        },
+        {
+          "name": "Dhruv Muchhal",
+          "since": "Jun 2023"
+        }
+      ],
+      "aum": "₹39,933.37 Cr",
+      "nav": "₹1,189.08",
+      "nav_date": "25 Sep 2026",
+      "launch_date": "10 Dec 1999",
+      "investment_objective": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_implication": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+      "lock_in": null,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "top_holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial",
+          "pct": "10.05%"
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial",
+          "pct": "6.88%"
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "sector": "Technology",
+          "pct": "6.23%"
+        },
+        {
+          "name": "Kotak Mahindra Bank Ltd",
+          "sector": "Financial",
+          "pct": "5.71%"
+        },
+        {
+          "name": "Titan Company Ltd",
+          "sector": "Consumer Discretionary",
+          "pct": "5.27%"
+        }
+      ]
+    },
+    {
+      "name": "HDFC Flexi Cap Direct Plan Growth",
+      "slug": "hdfc-equity-fund-direct-growth",
+      "category": "Equity - Flexi Cap",
+      "risk_level": "Very High",
+      "expense_ratio": "0.77%",
+      "min_sip": "₹100",
+      "min_lumpsum": "₹100",
+      "exit_load": "1% if redeemed within 1 year",
+      "benchmark": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        {
+          "name": "Dhruv Muchhal",
+          "since": "Jun 2023"
+        },
+        {
+          "name": "Amit Ganatra",
+          "since": "Feb 2026"
+        }
+      ],
+      "aum": "₹1,13,606.47 Cr",
+      "nav": "₹2,214.57",
+      "nav_date": "25 Sep 2026",
+      "launch_date": "10 Dec 1999",
+      "investment_objective": "The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_implication": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+      "lock_in": null,
+      "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "top_holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial",
+          "pct": "9.19%"
+        },
+        {
+          "name": "Axis Bank Ltd",
+          "sector": "Financial",
+          "pct": "6.19%"
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial",
+          "pct": "5.71%"
+        },
+        {
+          "name": "State Bank of India",
+          "sector": "Financial",
+          "pct": "4.16%"
+        },
+        {
+          "name": "Zomato Ltd",
+          "sector": "Technology",
+          "pct": "3.39%"
+        }
+      ]
+    },
+    {
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "category": "Equity - ELSS",
+      "risk_level": "Very High",
+      "expense_ratio": "1.21%",
+      "min_sip": "₹500",
+      "min_lumpsum": "₹500",
+      "exit_load": "Nil",
+      "benchmark": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        {
+          "name": "Amar Kalkundrikar",
+          "since": "Dec 2025"
+        },
+        {
+          "name": "Dhruv Muchhal",
+          "since": "Jun 2023"
+        }
+      ],
+      "aum": "₹15,991.78 Cr",
+      "nav": "₹1,447.38",
+      "nav_date": "25 Sep 2026",
+      "launch_date": "10 Dec 1999",
+      "investment_objective": "The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_implication": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+      "lock_in": "3-year",
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "top_holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial",
+          "pct": "9.32%"
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial",
+          "pct": "7.36%"
+        },
+        {
+          "name": "Axis Bank Ltd",
+          "sector": "Financial",
+          "pct": "6.50%"
+        },
+        {
+          "name": "Maruti Suzuki India Ltd",
+          "sector": "Consumer Discretionary",
+          "pct": "4.66%"
+        },
+        {
+          "name": "State Bank of India",
+          "sector": "Financial",
+          "pct": "4.64%"
+        }
+      ]
+    },
+    {
+      "name": "HDFC Small Cap Fund Direct Growth",
+      "slug": "hdfc-small-cap-fund-direct-growth",
+      "category": "Equity - Small Cap",
+      "risk_level": "Very High",
+      "expense_ratio": "0.78%",
+      "min_sip": "₹100",
+      "min_lumpsum": "₹100",
+      "exit_load": "1% if redeemed within 1 year",
+      "benchmark": "BSE 250 SmallCap Total Return Index",
+      "fund_managers": [
+        {
+          "name": "Dhruv Muchhal",
+          "since": "Jun 2023"
+        },
+        {
+          "name": "Chirag Setalvad",
+          "since": "Jun 2014"
+        }
+      ],
+      "aum": "₹41,890.86 Cr",
+      "nav": "₹159.82",
+      "nav_date": "25 Sep 2026",
+      "launch_date": "10 Dec 1999",
+      "investment_objective": "The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_implication": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+      "lock_in": null,
+      "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "top_holdings": [
+        {
+          "name": "Firstsource Solutions Ltd",
+          "sector": "Industrials",
+          "pct": "3.71%"
+        },
+        {
+          "name": "Aster DM Healthcare Ltd",
+          "sector": "Healthcare",
+          "pct": "3.56%"
+        },
+        {
+          "name": "Gabriel India Ltd",
+          "sector": "Consumer Discretionary",
+          "pct": "3.25%"
+        },
+        {
+          "name": "eClerx Services Ltd",
+          "sector": "Technology",
+          "pct": "3.09%"
+        },
+        {
+          "name": "Bank Of Baroda",
+          "sector": "Financial",
+          "pct": "2.67%"
+        }
+      ]
+    },
+    {
+      "name": "HDFC Balanced Advantage Fund Direct Growth",
+      "slug": "hdfc-balanced-advantage-fund-direct-growth",
+      "category": "Hybrid - Dynamic Asset Allocation",
+      "risk_level": "Very High",
+      "expense_ratio": "0.78%",
+      "min_sip": "₹100",
+      "min_lumpsum": "₹100",
+      "exit_load": "1% if redeemed within 1 year (for units in excess of 15% of investment)",
+      "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+      "fund_managers": [
+        {
+          "name": "Anil Bamboli",
+          "since": "Jul 2022"
+        },
+        {
+          "name": "Arun Agarwal",
+          "since": "Oct 2022"
+        },
+        {
+          "name": "Dhruv Muchhal",
+          "since": "Jun 2023"
+        }
+      ],
+      "aum": "₹1,07,295.79 Cr",
+      "nav": "₹557.73",
+      "nav_date": "25 Sep 2026",
+      "launch_date": "10 Dec 1999",
+      "investment_objective": "The scheme seeks to provide long-term capital appreciation/income by investing in a mix of equity and debt instruments.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_implication": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+      "lock_in": null,
+      "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+      "top_holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial",
+          "pct": "5.32%"
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial",
+          "pct": "4.13%"
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "sector": "Energy & Utilities",
+          "pct": "3.74%"
+        },
+        {
+          "name": "State Bank of India",
+          "sector": "Financial",
+          "pct": "3.46%"
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "sector": "Technology",
+          "pct": "2.93%"
+        }
+      ]
+    }
+  ],
+  "amc": {
+    "name": "HDFC Mutual Fund",
+    "rank": "#2 in India",
+    "total_aum": "₹9,86,236.84 Cr",
+    "website": "https://www.hdfcfund.com"
+  }
+}

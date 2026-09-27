@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MF FAQ Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MF FAQ Assistant</h1>
+            <p class="disclaimer">Facts-only. No investment advice.</p>
+        </header>
+
+        <div class="welcome">
+            <p>Welcome! Ask me about HDFC mutual fund schemes.</p>
+            <div class="examples">
+                <p>Try asking:</p>
+                <button class="example-btn" onclick="askExample(this)">
+                    Expense ratio of HDFC Large Cap Fund?
+                </button>
+                <button class="example-btn" onclick="askExample(this)">
+                    ELSS lock-in period?
+                </button>
+                <button class="example-btn" onclick="askExample(this)">
+                    Minimum SIP for HDFC Small Cap?
+                </button>
+            </div>
+        </div>
+
+        <div id="chat" class="chat"></div>
+
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="query" placeholder="Type your question..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

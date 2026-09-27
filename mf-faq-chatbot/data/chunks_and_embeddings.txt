@@ -1,0 +1,914 @@
+================================================================================
+MF FAQ Assistant — Chunks & Embeddings
+================================================================================
+
+Total schemes: 5
+Total chunks: 56
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Embedding dimensions: 384
+Vector DB: ChromaDB (cosine similarity)
+
+================================================================================
+CHUNKS
+================================================================================
+
+--- Chunk 1/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_expense_ratio
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  expense_ratio
+Text:      The expense ratio of HDFC Large Cap Fund Direct Growth is 1.03%.
+Value:     1.03%
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "expense_ratio", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 2/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_exit_load
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  exit_load
+Text:      Exit load of HDFC Large Cap Fund Direct Growth: 1% if redeemed within 1 year.
+Value:     1% if redeemed within 1 year
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "exit_load", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 3/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_min_sip
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  min_sip
+Text:      The minimum SIP investment for HDFC Large Cap Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "min_sip", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 4/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_min_lumpsum
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  min_lumpsum
+Text:      The minimum lumpsum investment for HDFC Large Cap Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "min_lumpsum", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 5/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_benchmark
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  benchmark
+Text:      The benchmark of HDFC Large Cap Fund Direct Growth is NIFTY 100 Total Return Index.
+Value:     NIFTY 100 Total Return Index
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "benchmark", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 6/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_risk_level
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  risk_level
+Text:      HDFC Large Cap Fund Direct Growth is rated Very High risk.
+Value:     Very High
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "risk_level", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 7/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_fund_manager
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  fund_manager
+Text:      HDFC Large Cap Fund Direct Growth is managed by Rahul Baijal, Dhruv Muchhal.
+Value:     Rahul Baijal, Dhruv Muchhal
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "fund_manager", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 8/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_aum
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  aum
+Text:      The AUM of HDFC Large Cap Fund Direct Growth is ₹39,933.37 Cr.
+Value:     ₹39,933.37 Cr
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "aum", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 9/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_objective
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  investment_objective
+Text:      HDFC Large Cap Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.
+Value:     The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "investment_objective", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 10/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_tax
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  tax
+Text:      Tax implication for HDFC Large Cap Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Value:     If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "tax", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 11/56 ---
+ID:        hdfc-large-cap-fund-direct-growth_stamp_duty
+Scheme:    HDFC Large Cap Fund Direct Growth
+Slug:      hdfc-large-cap-fund-direct-growth
+Category:  stamp_duty
+Text:      Stamp duty on investment for HDFC Large Cap Fund Direct Growth: 0.005% (from July 1st, 2020).
+Value:     0.005% (from July 1st, 2020)
+Source:    https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Large Cap Fund Direct Growth", "category_type": "stamp_duty", "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"}
+
+--- Chunk 12/56 ---
+ID:        hdfc-equity-fund-direct-growth_expense_ratio
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  expense_ratio
+Text:      The expense ratio of HDFC Flexi Cap Direct Plan Growth is 0.77%.
+Value:     0.77%
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "expense_ratio", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 13/56 ---
+ID:        hdfc-equity-fund-direct-growth_exit_load
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  exit_load
+Text:      Exit load of HDFC Flexi Cap Direct Plan Growth: 1% if redeemed within 1 year.
+Value:     1% if redeemed within 1 year
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "exit_load", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 14/56 ---
+ID:        hdfc-equity-fund-direct-growth_min_sip
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  min_sip
+Text:      The minimum SIP investment for HDFC Flexi Cap Direct Plan Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "min_sip", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 15/56 ---
+ID:        hdfc-equity-fund-direct-growth_min_lumpsum
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  min_lumpsum
+Text:      The minimum lumpsum investment for HDFC Flexi Cap Direct Plan Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "min_lumpsum", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 16/56 ---
+ID:        hdfc-equity-fund-direct-growth_benchmark
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  benchmark
+Text:      The benchmark of HDFC Flexi Cap Direct Plan Growth is NIFTY 500 Total Return Index.
+Value:     NIFTY 500 Total Return Index
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "benchmark", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 17/56 ---
+ID:        hdfc-equity-fund-direct-growth_risk_level
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  risk_level
+Text:      HDFC Flexi Cap Direct Plan Growth is rated Very High risk.
+Value:     Very High
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "risk_level", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 18/56 ---
+ID:        hdfc-equity-fund-direct-growth_fund_manager
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  fund_manager
+Text:      HDFC Flexi Cap Direct Plan Growth is managed by Dhruv Muchhal, Amit Ganatra.
+Value:     Dhruv Muchhal, Amit Ganatra
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "fund_manager", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 19/56 ---
+ID:        hdfc-equity-fund-direct-growth_aum
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  aum
+Text:      The AUM of HDFC Flexi Cap Direct Plan Growth is ₹1,13,606.47 Cr.
+Value:     ₹1,13,606.47 Cr
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "aum", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 20/56 ---
+ID:        hdfc-equity-fund-direct-growth_objective
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  investment_objective
+Text:      HDFC Flexi Cap Direct Plan Growth seeks to The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.
+Value:     The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "investment_objective", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 21/56 ---
+ID:        hdfc-equity-fund-direct-growth_tax
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  tax
+Text:      Tax implication for HDFC Flexi Cap Direct Plan Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Value:     If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "tax", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 22/56 ---
+ID:        hdfc-equity-fund-direct-growth_stamp_duty
+Scheme:    HDFC Flexi Cap Direct Plan Growth
+Slug:      hdfc-equity-fund-direct-growth
+Category:  stamp_duty
+Text:      Stamp duty on investment for HDFC Flexi Cap Direct Plan Growth: 0.005% (from July 1st, 2020).
+Value:     0.005% (from July 1st, 2020)
+Source:    https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Flexi Cap Direct Plan Growth", "category_type": "stamp_duty", "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"}
+
+--- Chunk 23/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_expense_ratio
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  expense_ratio
+Text:      The expense ratio of HDFC ELSS Tax Saver Fund Direct Plan Growth is 1.21%.
+Value:     1.21%
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "expense_ratio", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 24/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_exit_load
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  exit_load
+Text:      Exit load of HDFC ELSS Tax Saver Fund Direct Plan Growth: Nil.
+Value:     Nil
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "exit_load", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 25/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_min_sip
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  min_sip
+Text:      The minimum SIP investment for HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹500.
+Value:     ₹500
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "min_sip", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 26/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_min_lumpsum
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  min_lumpsum
+Text:      The minimum lumpsum investment for HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹500.
+Value:     ₹500
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "min_lumpsum", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 27/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_benchmark
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  benchmark
+Text:      The benchmark of HDFC ELSS Tax Saver Fund Direct Plan Growth is NIFTY 500 Total Return Index.
+Value:     NIFTY 500 Total Return Index
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "benchmark", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 28/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_risk_level
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  risk_level
+Text:      HDFC ELSS Tax Saver Fund Direct Plan Growth is rated Very High risk.
+Value:     Very High
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "risk_level", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 29/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_fund_manager
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  fund_manager
+Text:      HDFC ELSS Tax Saver Fund Direct Plan Growth is managed by Amar Kalkundrikar, Dhruv Muchhal.
+Value:     Amar Kalkundrikar, Dhruv Muchhal
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "fund_manager", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 30/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_aum
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  aum
+Text:      The AUM of HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹15,991.78 Cr.
+Value:     ₹15,991.78 Cr
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "aum", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 31/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_objective
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  investment_objective
+Text:      HDFC ELSS Tax Saver Fund Direct Plan Growth seeks to The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.
+Value:     The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "investment_objective", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 32/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_lock_in
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  lock_in
+Text:      HDFC ELSS Tax Saver Fund Direct Plan Growth has a 3-year lock-in period.
+Value:     3-year
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "lock_in", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 33/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_tax
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  tax
+Text:      Tax implication for HDFC ELSS Tax Saver Fund Direct Plan Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Value:     If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "tax", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 34/56 ---
+ID:        hdfc-elss-tax-saver-fund-direct-plan-growth_stamp_duty
+Scheme:    HDFC ELSS Tax Saver Fund Direct Plan Growth
+Slug:      hdfc-elss-tax-saver-fund-direct-plan-growth
+Category:  stamp_duty
+Text:      Stamp duty on investment for HDFC ELSS Tax Saver Fund Direct Plan Growth: 0.005% (from July 1st, 2020).
+Value:     0.005% (from July 1st, 2020)
+Source:    https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth", "category_type": "stamp_duty", "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"}
+
+--- Chunk 35/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_expense_ratio
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  expense_ratio
+Text:      The expense ratio of HDFC Small Cap Fund Direct Growth is 0.78%.
+Value:     0.78%
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "expense_ratio", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 36/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_exit_load
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  exit_load
+Text:      Exit load of HDFC Small Cap Fund Direct Growth: 1% if redeemed within 1 year.
+Value:     1% if redeemed within 1 year
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "exit_load", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 37/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_min_sip
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  min_sip
+Text:      The minimum SIP investment for HDFC Small Cap Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "min_sip", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 38/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_min_lumpsum
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  min_lumpsum
+Text:      The minimum lumpsum investment for HDFC Small Cap Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "min_lumpsum", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 39/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_benchmark
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  benchmark
+Text:      The benchmark of HDFC Small Cap Fund Direct Growth is BSE 250 SmallCap Total Return Index.
+Value:     BSE 250 SmallCap Total Return Index
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "benchmark", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 40/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_risk_level
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  risk_level
+Text:      HDFC Small Cap Fund Direct Growth is rated Very High risk.
+Value:     Very High
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "risk_level", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 41/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_fund_manager
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  fund_manager
+Text:      HDFC Small Cap Fund Direct Growth is managed by Dhruv Muchhal, Chirag Setalvad.
+Value:     Dhruv Muchhal, Chirag Setalvad
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "fund_manager", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 42/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_aum
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  aum
+Text:      The AUM of HDFC Small Cap Fund Direct Growth is ₹41,890.86 Cr.
+Value:     ₹41,890.86 Cr
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "aum", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 43/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_objective
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  investment_objective
+Text:      HDFC Small Cap Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.
+Value:     The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "investment_objective", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 44/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_tax
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  tax
+Text:      Tax implication for HDFC Small Cap Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Value:     If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "tax", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 45/56 ---
+ID:        hdfc-small-cap-fund-direct-growth_stamp_duty
+Scheme:    HDFC Small Cap Fund Direct Growth
+Slug:      hdfc-small-cap-fund-direct-growth
+Category:  stamp_duty
+Text:      Stamp duty on investment for HDFC Small Cap Fund Direct Growth: 0.005% (from July 1st, 2020).
+Value:     0.005% (from July 1st, 2020)
+Source:    https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Small Cap Fund Direct Growth", "category_type": "stamp_duty", "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"}
+
+--- Chunk 46/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_expense_ratio
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  expense_ratio
+Text:      The expense ratio of HDFC Balanced Advantage Fund Direct Growth is 0.78%.
+Value:     0.78%
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "expense_ratio", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 47/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_exit_load
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  exit_load
+Text:      Exit load of HDFC Balanced Advantage Fund Direct Growth: 1% if redeemed within 1 year (for units in excess of 15% of investment).
+Value:     1% if redeemed within 1 year (for units in excess of 15% of investment)
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "exit_load", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 48/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_min_sip
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  min_sip
+Text:      The minimum SIP investment for HDFC Balanced Advantage Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "min_sip", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 49/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_min_lumpsum
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  min_lumpsum
+Text:      The minimum lumpsum investment for HDFC Balanced Advantage Fund Direct Growth is ₹100.
+Value:     ₹100
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "min_lumpsum", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 50/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_benchmark
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  benchmark
+Text:      The benchmark of HDFC Balanced Advantage Fund Direct Growth is NIFTY 50 Hybrid Composite Debt 50:50 Index.
+Value:     NIFTY 50 Hybrid Composite Debt 50:50 Index
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "benchmark", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 51/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_risk_level
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  risk_level
+Text:      HDFC Balanced Advantage Fund Direct Growth is rated Very High risk.
+Value:     Very High
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "risk_level", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 52/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_fund_manager
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  fund_manager
+Text:      HDFC Balanced Advantage Fund Direct Growth is managed by Anil Bamboli, Arun Agarwal, Dhruv Muchhal.
+Value:     Anil Bamboli, Arun Agarwal, Dhruv Muchhal
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "fund_manager", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 53/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_aum
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  aum
+Text:      The AUM of HDFC Balanced Advantage Fund Direct Growth is ₹1,07,295.79 Cr.
+Value:     ₹1,07,295.79 Cr
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "aum", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 54/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_objective
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  investment_objective
+Text:      HDFC Balanced Advantage Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation/income by investing in a mix of equity and debt instruments.
+Value:     The scheme seeks to provide long-term capital appreciation/income by investing in a mix of equity and debt instruments.
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "investment_objective", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 55/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_tax
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  tax
+Text:      Tax implication for HDFC Balanced Advantage Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Value:     If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "tax", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+--- Chunk 56/56 ---
+ID:        hdfc-balanced-advantage-fund-direct-growth_stamp_duty
+Scheme:    HDFC Balanced Advantage Fund Direct Growth
+Slug:      hdfc-balanced-advantage-fund-direct-growth
+Category:  stamp_duty
+Text:      Stamp duty on investment for HDFC Balanced Advantage Fund Direct Growth: 0.005% (from July 1st, 2020).
+Value:     0.005% (from July 1st, 2020)
+Source:    https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+Metadata:  {"amc": "HDFC Mutual Fund", "scheme_name": "HDFC Balanced Advantage Fund Direct Growth", "category_type": "stamp_duty", "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth"}
+
+================================================================================
+EMBEDDINGS (first 10 dimensions per chunk)
+================================================================================
+
+--- hdfc-large-cap-fund-direct-growth_expense_ratio ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.1191), np.float64(-0.0709), np.float64(-0.067), np.float64(0.0424), np.float64(0.151), np.float64(-0.0283), np.float64(0.0053), np.float64(0.0644), np.float64(-0.0167), np.float64(0.0445)]
+Last 10 dims:  [np.float64(-0.0175), np.float64(0.0286), np.float64(-0.0349), np.float64(0.0524), np.float64(-0.0922), np.float64(-0.0111), np.float64(0.0508), np.float64(-0.0337), np.float64(0.0181), np.float64(0.0677)]
+
+--- hdfc-large-cap-fund-direct-growth_exit_load ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0709), np.float64(-0.0778), np.float64(-0.0443), np.float64(0.027), np.float64(0.1128), np.float64(0.0085), np.float64(0.013), np.float64(0.0906), np.float64(-0.0299), np.float64(0.0515)]
+Last 10 dims:  [np.float64(-0.0002), np.float64(0.0045), np.float64(-0.0546), np.float64(0.0652), np.float64(-0.0607), np.float64(-0.0118), np.float64(0.0426), np.float64(-0.0654), np.float64(-0.0194), np.float64(0.0697)]
+
+--- hdfc-large-cap-fund-direct-growth_min_sip ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.07), np.float64(-0.0338), np.float64(-0.0876), np.float64(-0.0242), np.float64(0.0346), np.float64(0.0125), np.float64(0.0373), np.float64(0.1276), np.float64(-0.0394), np.float64(0.0254)]
+Last 10 dims:  [np.float64(-0.0043), np.float64(0.0201), np.float64(-0.0485), np.float64(0.0615), np.float64(-0.0541), np.float64(-0.0317), np.float64(0.0321), np.float64(-0.0059), np.float64(0.0034), np.float64(0.075)]
+
+--- hdfc-large-cap-fund-direct-growth_min_lumpsum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0776), np.float64(-0.0151), np.float64(-0.0821), np.float64(-0.0151), np.float64(0.0682), np.float64(0.0283), np.float64(0.0379), np.float64(0.139), np.float64(-0.069), np.float64(0.0377)]
+Last 10 dims:  [np.float64(-0.0284), np.float64(0.0249), np.float64(-0.0272), np.float64(0.0458), np.float64(-0.0725), np.float64(-0.0021), np.float64(0.018), np.float64(-0.0713), np.float64(0.0574), np.float64(0.0925)]
+
+--- hdfc-large-cap-fund-direct-growth_benchmark ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0633), np.float64(-0.0718), np.float64(-0.0509), np.float64(0.052), np.float64(0.1022), np.float64(0.0046), np.float64(-0.0057), np.float64(0.0734), np.float64(-0.0224), np.float64(0.0375)]
+Last 10 dims:  [np.float64(-0.0118), np.float64(0.0962), np.float64(-0.0515), np.float64(0.0106), np.float64(-0.0487), np.float64(-0.0112), np.float64(0.1065), np.float64(-0.0506), np.float64(0.0082), np.float64(0.0986)]
+
+--- hdfc-large-cap-fund-direct-growth_risk_level ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.1088), np.float64(-0.0691), np.float64(-0.0467), np.float64(0.0087), np.float64(0.1246), np.float64(0.0274), np.float64(-0.049), np.float64(0.0701), np.float64(-0.0532), np.float64(0.0408)]
+Last 10 dims:  [np.float64(-0.0122), np.float64(0.0634), np.float64(-0.0332), np.float64(0.0339), np.float64(-0.042), np.float64(-0.0354), np.float64(0.0526), np.float64(-0.0852), np.float64(0.029), np.float64(0.0886)]
+
+--- hdfc-large-cap-fund-direct-growth_fund_manager ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0572), np.float64(-0.0289), np.float64(-0.0758), np.float64(0.0435), np.float64(0.1152), np.float64(-0.0064), np.float64(-0.0193), np.float64(0.0395), np.float64(-0.0542), np.float64(0.025)]
+Last 10 dims:  [np.float64(-0.0202), np.float64(0.0667), np.float64(-0.0184), np.float64(0.0414), np.float64(-0.0475), np.float64(-0.0194), np.float64(0.0527), np.float64(-0.0464), np.float64(0.0831), np.float64(0.1002)]
+
+--- hdfc-large-cap-fund-direct-growth_aum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0949), np.float64(-0.0849), np.float64(-0.1041), np.float64(0.0554), np.float64(0.0964), np.float64(0.018), np.float64(0.0189), np.float64(0.1152), np.float64(-0.0401), np.float64(0.0639)]
+Last 10 dims:  [np.float64(-0.0458), np.float64(0.0231), np.float64(-0.0459), np.float64(0.0192), np.float64(-0.0633), np.float64(-0.025), np.float64(0.066), np.float64(-0.086), np.float64(0.0229), np.float64(0.0606)]
+
+--- hdfc-large-cap-fund-direct-growth_objective ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0853), np.float64(-0.0728), np.float64(-0.0069), np.float64(-0.0055), np.float64(0.1458), np.float64(0.0445), np.float64(0.0012), np.float64(0.0525), np.float64(-0.0798), np.float64(0.0203)]
+Last 10 dims:  [np.float64(-0.0159), np.float64(0.0498), np.float64(-0.0241), np.float64(0.0267), np.float64(-0.011), np.float64(-0.0078), np.float64(0.0243), np.float64(-0.0264), np.float64(0.0395), np.float64(0.0686)]
+
+--- hdfc-large-cap-fund-direct-growth_tax ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0613), np.float64(-0.0939), np.float64(-0.0239), np.float64(-0.0215), np.float64(0.1303), np.float64(0.0476), np.float64(0.0522), np.float64(0.0685), np.float64(-0.0562), np.float64(0.0477)]
+Last 10 dims:  [np.float64(-0.0318), np.float64(0.0459), np.float64(-0.0345), np.float64(0.0611), np.float64(-0.0377), np.float64(-0.033), np.float64(0.0739), np.float64(-0.0404), np.float64(-0.0224), np.float64(0.0495)]
+
+--- hdfc-large-cap-fund-direct-growth_stamp_duty ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.065), np.float64(-0.0573), np.float64(-0.039), np.float64(0.0361), np.float64(0.0845), np.float64(-0.007), np.float64(0.005), np.float64(0.0759), np.float64(-0.0839), np.float64(0.0346)]
+Last 10 dims:  [np.float64(0.0032), np.float64(0.0638), np.float64(-0.0532), np.float64(0.015), np.float64(-0.0468), np.float64(0.0098), np.float64(0.0833), np.float64(-0.0853), np.float64(-0.0085), np.float64(0.1108)]
+
+--- hdfc-equity-fund-direct-growth_expense_ratio ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0893), np.float64(0.0231), np.float64(-0.0635), np.float64(0.0566), np.float64(0.1254), np.float64(0.0043), np.float64(-0.062), np.float64(0.1076), np.float64(-0.0066), np.float64(0.008)]
+Last 10 dims:  [np.float64(-0.0186), np.float64(-0.0068), np.float64(-0.0344), np.float64(0.0568), np.float64(-0.0936), np.float64(0.007), np.float64(0.031), np.float64(-0.038), np.float64(-0.0198), np.float64(0.0398)]
+
+--- hdfc-equity-fund-direct-growth_exit_load ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0369), np.float64(-0.0329), np.float64(-0.0431), np.float64(0.0369), np.float64(0.1142), np.float64(0.0161), np.float64(-0.0334), np.float64(0.1313), np.float64(-0.033), np.float64(0.0032)]
+Last 10 dims:  [np.float64(-0.012), np.float64(-0.0281), np.float64(-0.0642), np.float64(0.0413), np.float64(-0.0631), np.float64(0.026), np.float64(0.0193), np.float64(-0.0535), np.float64(-0.0349), np.float64(0.0464)]
+
+--- hdfc-equity-fund-direct-growth_min_sip ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0442), np.float64(-0.0078), np.float64(-0.0899), np.float64(-0.0137), np.float64(0.0456), np.float64(0.0212), np.float64(0.0081), np.float64(0.1569), np.float64(-0.0358), np.float64(-0.0082)]
+Last 10 dims:  [np.float64(-0.0091), np.float64(-0.0027), np.float64(-0.0532), np.float64(0.0534), np.float64(-0.064), np.float64(-0.0134), np.float64(0.01), np.float64(-0.0048), np.float64(-0.0125), np.float64(0.0569)]
+
+--- hdfc-equity-fund-direct-growth_min_lumpsum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0418), np.float64(0.0117), np.float64(-0.0746), np.float64(-0.0091), np.float64(0.0703), np.float64(0.0374), np.float64(0.0082), np.float64(0.1714), np.float64(-0.0683), np.float64(0.0049)]
+Last 10 dims:  [np.float64(-0.0291), np.float64(-0.0065), np.float64(-0.035), np.float64(0.0298), np.float64(-0.0818), np.float64(0.0156), np.float64(-0.0069), np.float64(-0.0739), np.float64(0.0429), np.float64(0.0779)]
+
+--- hdfc-equity-fund-direct-growth_benchmark ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0172), np.float64(-0.0398), np.float64(-0.0534), np.float64(0.0685), np.float64(0.1001), np.float64(0.0238), np.float64(-0.0677), np.float64(0.1067), np.float64(-0.0453), np.float64(-0.0401)]
+Last 10 dims:  [np.float64(-0.0106), np.float64(0.0393), np.float64(-0.0727), np.float64(-0.0045), np.float64(-0.0442), np.float64(0.005), np.float64(0.0623), np.float64(-0.0478), np.float64(-0.0125), np.float64(0.0864)]
+
+--- hdfc-equity-fund-direct-growth_risk_level ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0592), np.float64(-0.0152), np.float64(-0.0389), np.float64(0.0186), np.float64(0.127), np.float64(0.0412), np.float64(-0.0857), np.float64(0.1349), np.float64(-0.0582), np.float64(-0.0127)]
+Last 10 dims:  [np.float64(-0.0222), np.float64(0.0293), np.float64(-0.0558), np.float64(0.0262), np.float64(-0.0311), np.float64(-0.0142), np.float64(0.0295), np.float64(-0.0699), np.float64(0.0115), np.float64(0.0695)]
+
+--- hdfc-equity-fund-direct-growth_fund_manager ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(-0.0136), np.float64(0.0165), np.float64(-0.0537), np.float64(0.0063), np.float64(0.0938), np.float64(0.0155), np.float64(-0.0826), np.float64(0.1083), np.float64(-0.0804), np.float64(-0.021)]
+Last 10 dims:  [np.float64(-0.0249), np.float64(0.0528), np.float64(-0.0116), np.float64(0.0011), np.float64(-0.041), np.float64(-0.0155), np.float64(0.0086), np.float64(-0.028), np.float64(0.0425), np.float64(0.1025)]
+
+--- hdfc-equity-fund-direct-growth_aum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0341), np.float64(-0.0171), np.float64(-0.1107), np.float64(0.0493), np.float64(0.0812), np.float64(0.0276), np.float64(-0.0117), np.float64(0.1738), np.float64(-0.0365), np.float64(0.0122)]
+Last 10 dims:  [np.float64(-0.0359), np.float64(0.007), np.float64(-0.0658), np.float64(0.0011), np.float64(-0.08), np.float64(-0.0037), np.float64(0.027), np.float64(-0.0778), np.float64(-0.0209), np.float64(0.0382)]
+
+--- hdfc-equity-fund-direct-growth_objective ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0482), np.float64(-0.0461), np.float64(-0.0515), np.float64(-0.0013), np.float64(0.1129), np.float64(0.0415), np.float64(-0.0244), np.float64(0.0775), np.float64(-0.0485), np.float64(0.0006)]
+Last 10 dims:  [np.float64(0.0161), np.float64(0.035), np.float64(-0.0184), np.float64(0.0027), np.float64(0.0064), np.float64(0.0167), np.float64(0.0076), np.float64(-0.005), np.float64(-0.0132), np.float64(0.0259)]
+
+--- hdfc-equity-fund-direct-growth_tax ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0396), np.float64(-0.065), np.float64(-0.0177), np.float64(-0.0213), np.float64(0.1242), np.float64(0.0633), np.float64(0.0125), np.float64(0.1085), np.float64(-0.0629), np.float64(0.0049)]
+Last 10 dims:  [np.float64(-0.0185), np.float64(0.0119), np.float64(-0.0483), np.float64(0.035), np.float64(-0.0422), np.float64(-0.0078), np.float64(0.0448), np.float64(-0.0616), np.float64(-0.0499), np.float64(0.0366)]
+
+--- hdfc-equity-fund-direct-growth_stamp_duty ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0284), np.float64(-0.0292), np.float64(-0.0323), np.float64(0.0383), np.float64(0.0862), np.float64(0.0096), np.float64(-0.0403), np.float64(0.1182), np.float64(-0.092), np.float64(-0.0127)]
+Last 10 dims:  [np.float64(0.0029), np.float64(0.0308), np.float64(-0.0699), np.float64(-0.0071), np.float64(-0.0498), np.float64(0.0325), np.float64(0.049), np.float64(-0.0875), np.float64(-0.0265), np.float64(0.0929)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_expense_ratio ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0843), np.float64(-0.008), np.float64(-0.0707), np.float64(0.0126), np.float64(0.1566), np.float64(0.0356), np.float64(-0.0071), np.float64(0.0646), np.float64(-0.0206), np.float64(0.0273)]
+Last 10 dims:  [np.float64(0.0006), np.float64(-0.0545), np.float64(-0.0639), np.float64(0.0343), np.float64(-0.021), np.float64(-0.0141), np.float64(0.0609), np.float64(-0.0152), np.float64(0.0005), np.float64(0.0752)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_exit_load ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.042), np.float64(-0.0199), np.float64(-0.0171), np.float64(-0.0065), np.float64(0.1179), np.float64(0.0573), np.float64(-0.0187), np.float64(0.0336), np.float64(-0.0426), np.float64(0.0265)]
+Last 10 dims:  [np.float64(0.0367), np.float64(-0.0538), np.float64(-0.0756), np.float64(0.0207), np.float64(-0.019), np.float64(-0.0113), np.float64(0.0724), np.float64(-0.0674), np.float64(-0.0152), np.float64(0.1091)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_min_sip ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0568), np.float64(-0.0161), np.float64(-0.0811), np.float64(-0.0281), np.float64(0.0508), np.float64(0.0371), np.float64(0.0266), np.float64(0.0944), np.float64(-0.0325), np.float64(0.0244)]
+Last 10 dims:  [np.float64(0.0093), np.float64(-0.0387), np.float64(-0.062), np.float64(0.0457), np.float64(-0.0011), np.float64(-0.0566), np.float64(0.0476), np.float64(0.0102), np.float64(-0.0048), np.float64(0.0983)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_min_lumpsum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0529), np.float64(-0.0027), np.float64(-0.0764), np.float64(-0.0184), np.float64(0.0804), np.float64(0.0496), np.float64(0.015), np.float64(0.1061), np.float64(-0.0738), np.float64(0.0332)]
+Last 10 dims:  [np.float64(-0.0113), np.float64(-0.0375), np.float64(-0.0474), np.float64(0.0306), np.float64(-0.0203), np.float64(-0.0203), np.float64(0.0301), np.float64(-0.0586), np.float64(0.0451), np.float64(0.1173)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_benchmark ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0324), np.float64(-0.0287), np.float64(-0.0675), np.float64(0.0312), np.float64(0.0883), np.float64(0.0354), np.float64(-0.031), np.float64(0.0492), np.float64(-0.0398), np.float64(0.008)]
+Last 10 dims:  [np.float64(-0.0026), np.float64(0.012), np.float64(-0.0735), np.float64(-0.0097), np.float64(-0.0135), np.float64(-0.03), np.float64(0.1147), np.float64(-0.0315), np.float64(-0.0095), np.float64(0.1177)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_risk_level ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0768), np.float64(-0.0286), np.float64(-0.058), np.float64(-0.0142), np.float64(0.1289), np.float64(0.0627), np.float64(-0.0432), np.float64(0.0805), np.float64(-0.0611), np.float64(0.0256)]
+Last 10 dims:  [np.float64(-0.0102), np.float64(-0.0184), np.float64(-0.0607), np.float64(0.0166), np.float64(0.0122), np.float64(-0.0392), np.float64(0.0772), np.float64(-0.05), np.float64(0.0135), np.float64(0.1107)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_fund_manager ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0076), np.float64(-0.0033), np.float64(-0.081), np.float64(-0.0174), np.float64(0.1065), np.float64(0.0711), np.float64(-0.029), np.float64(0.0391), np.float64(-0.043), np.float64(0.0557)]
+Last 10 dims:  [np.float64(-0.0044), np.float64(-0.0476), np.float64(-0.0476), np.float64(-0.0164), np.float64(0.0408), np.float64(-0.0619), np.float64(0.0501), np.float64(-0.0147), np.float64(0.0567), np.float64(0.1211)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_aum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0508), np.float64(-0.0134), np.float64(-0.1125), np.float64(0.0168), np.float64(0.0949), np.float64(0.0454), np.float64(0.0176), np.float64(0.0936), np.float64(-0.0315), np.float64(0.0416)]
+Last 10 dims:  [np.float64(-0.0198), np.float64(-0.0409), np.float64(-0.0781), np.float64(0.0133), np.float64(-0.0364), np.float64(-0.0336), np.float64(0.0627), np.float64(-0.064), np.float64(-0.0093), np.float64(0.0652)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_objective ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0354), np.float64(-0.0308), np.float64(-0.0652), np.float64(-0.0312), np.float64(0.1266), np.float64(0.074), np.float64(-0.004), np.float64(0.0183), np.float64(-0.0354), np.float64(0.0224)]
+Last 10 dims:  [np.float64(0.0262), np.float64(-0.0382), np.float64(-0.0413), np.float64(0.0097), np.float64(0.0877), np.float64(-0.033), np.float64(0.0517), np.float64(0.0199), np.float64(0.0095), np.float64(0.0592)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_lock_in ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(-0.0225), np.float64(-0.0542), np.float64(-0.0297), np.float64(-0.0247), np.float64(0.1238), np.float64(0.0523), np.float64(-0.057), np.float64(-0.0237), np.float64(0.0183), np.float64(0.023)]
+Last 10 dims:  [np.float64(0.0185), np.float64(-0.0051), np.float64(-0.0268), np.float64(-0.0161), np.float64(0.0195), np.float64(-0.0105), np.float64(0.0172), np.float64(-0.0335), np.float64(0.0156), np.float64(0.0797)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_tax ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0518), np.float64(-0.0582), np.float64(-0.028), np.float64(-0.0404), np.float64(0.1397), np.float64(0.0687), np.float64(0.0337), np.float64(0.0485), np.float64(-0.0366), np.float64(0.0334)]
+Last 10 dims:  [np.float64(-0.0048), np.float64(-0.0392), np.float64(-0.069), np.float64(0.0499), np.float64(0.0307), np.float64(-0.0434), np.float64(0.0668), np.float64(-0.0189), np.float64(-0.0368), np.float64(0.0569)]
+
+--- hdfc-elss-tax-saver-fund-direct-plan-growth_stamp_duty ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0396), np.float64(-0.0203), np.float64(-0.05), np.float64(0.0074), np.float64(0.0921), np.float64(0.0259), np.float64(-0.0004), np.float64(0.0714), np.float64(-0.0874), np.float64(0.0241)]
+Last 10 dims:  [np.float64(0.0203), np.float64(-0.006), np.float64(-0.0732), np.float64(0.0066), np.float64(0.0071), np.float64(0.006), np.float64(0.0809), np.float64(-0.0576), np.float64(-0.0297), np.float64(0.1184)]
+
+--- hdfc-small-cap-fund-direct-growth_expense_ratio ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.1433), np.float64(-0.0101), np.float64(-0.0698), np.float64(0.0703), np.float64(0.1419), np.float64(-0.0017), np.float64(-0.019), np.float64(0.0662), np.float64(-0.003), np.float64(0.0565)]
+Last 10 dims:  [np.float64(-0.0074), np.float64(0.0349), np.float64(0.0085), np.float64(0.0735), np.float64(-0.0865), np.float64(-0.0265), np.float64(0.038), np.float64(-0.0291), np.float64(0.0023), np.float64(0.0652)]
+
+--- hdfc-small-cap-fund-direct-growth_exit_load ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.086), np.float64(-0.061), np.float64(-0.0449), np.float64(0.0369), np.float64(0.1271), np.float64(0.016), np.float64(0.0118), np.float64(0.0982), np.float64(-0.0292), np.float64(0.0593)]
+Last 10 dims:  [np.float64(0.0067), np.float64(0.0106), np.float64(-0.0361), np.float64(0.0644), np.float64(-0.0584), np.float64(-0.0223), np.float64(0.0211), np.float64(-0.053), np.float64(-0.0235), np.float64(0.0737)]
+
+--- hdfc-small-cap-fund-direct-growth_min_sip ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0801), np.float64(-0.0213), np.float64(-0.0837), np.float64(-0.0146), np.float64(0.0491), np.float64(0.0203), np.float64(0.0398), np.float64(0.1272), np.float64(-0.037), np.float64(0.0297)]
+Last 10 dims:  [np.float64(0.0036), np.float64(0.0254), np.float64(-0.035), np.float64(0.0623), np.float64(-0.049), np.float64(-0.0384), np.float64(0.0114), np.float64(0.0019), np.float64(-0.0015), np.float64(0.0776)]
+
+--- hdfc-small-cap-fund-direct-growth_min_lumpsum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0858), np.float64(-0.0038), np.float64(-0.0801), np.float64(-0.0065), np.float64(0.0786), np.float64(0.0344), np.float64(0.0394), np.float64(0.1398), np.float64(-0.065), np.float64(0.041)]
+Last 10 dims:  [np.float64(-0.0212), np.float64(0.0311), np.float64(-0.0128), np.float64(0.0451), np.float64(-0.0669), np.float64(-0.0106), np.float64(-0.0013), np.float64(-0.0607), np.float64(0.0503), np.float64(0.0939)]
+
+--- hdfc-small-cap-fund-direct-growth_benchmark ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0956), np.float64(-0.0464), np.float64(-0.0327), np.float64(0.0789), np.float64(0.127), np.float64(0.0254), np.float64(-0.0331), np.float64(0.102), np.float64(-0.0447), np.float64(0.0455)]
+Last 10 dims:  [np.float64(-0.0025), np.float64(0.088), np.float64(-0.0216), np.float64(0.009), np.float64(-0.0158), np.float64(-0.0488), np.float64(0.0508), np.float64(-0.0545), np.float64(-0.0028), np.float64(0.1002)]
+
+--- hdfc-small-cap-fund-direct-growth_risk_level ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.1187), np.float64(-0.052), np.float64(-0.0502), np.float64(0.0204), np.float64(0.1403), np.float64(0.0414), np.float64(-0.0446), np.float64(0.0827), np.float64(-0.0538), np.float64(0.0464)]
+Last 10 dims:  [np.float64(-0.0084), np.float64(0.0697), np.float64(-0.0206), np.float64(0.0347), np.float64(-0.0378), np.float64(-0.042), np.float64(0.0306), np.float64(-0.0778), np.float64(0.0255), np.float64(0.0967)]
+
+--- hdfc-small-cap-fund-direct-growth_fund_manager ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.075), np.float64(-0.0181), np.float64(-0.0556), np.float64(0.0096), np.float64(0.0912), np.float64(0.0275), np.float64(-0.0409), np.float64(0.0581), np.float64(-0.0689), np.float64(0.0842)]
+Last 10 dims:  [np.float64(-0.0361), np.float64(0.0952), np.float64(-0.0098), np.float64(0.018), np.float64(-0.0302), np.float64(-0.0536), np.float64(-0.0029), np.float64(-0.0569), np.float64(0.0474), np.float64(0.1193)]
+
+--- hdfc-small-cap-fund-direct-growth_aum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.1133), np.float64(-0.0319), np.float64(-0.0939), np.float64(0.0714), np.float64(0.1115), np.float64(0.0249), np.float64(0.0185), np.float64(0.1313), np.float64(-0.0423), np.float64(0.0478)]
+Last 10 dims:  [np.float64(-0.0453), np.float64(0.0245), np.float64(-0.0281), np.float64(0.022), np.float64(-0.0637), np.float64(-0.0376), np.float64(0.0304), np.float64(-0.0734), np.float64(0.0115), np.float64(0.0521)]
+
+--- hdfc-small-cap-fund-direct-growth_objective ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.104), np.float64(-0.0493), np.float64(-0.0094), np.float64(0.0166), np.float64(0.1653), np.float64(0.0667), np.float64(0.0073), np.float64(0.0637), np.float64(-0.0733), np.float64(0.0277)]
+Last 10 dims:  [np.float64(-0.0053), np.float64(0.059), np.float64(0.0026), np.float64(0.0337), np.float64(-0.0064), np.float64(-0.0295), np.float64(-0.0056), np.float64(-0.0053), np.float64(0.0312), np.float64(0.0743)]
+
+--- hdfc-small-cap-fund-direct-growth_tax ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0814), np.float64(-0.0694), np.float64(-0.0234), np.float64(-0.0069), np.float64(0.1467), np.float64(0.0599), np.float64(0.0563), np.float64(0.0771), np.float64(-0.0496), np.float64(0.056)]
+Last 10 dims:  [np.float64(-0.0252), np.float64(0.0511), np.float64(-0.0145), np.float64(0.0586), np.float64(-0.0315), np.float64(-0.0499), np.float64(0.0502), np.float64(-0.0281), np.float64(-0.0219), np.float64(0.0536)]
+
+--- hdfc-small-cap-fund-direct-growth_stamp_duty ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0797), np.float64(-0.037), np.float64(-0.0424), np.float64(0.0441), np.float64(0.097), np.float64(0.0058), np.float64(0.0083), np.float64(0.0886), np.float64(-0.0827), np.float64(0.0392)]
+Last 10 dims:  [np.float64(0.0066), np.float64(0.0688), np.float64(-0.0372), np.float64(0.0187), np.float64(-0.0423), np.float64(-0.003), np.float64(0.0592), np.float64(-0.0736), np.float64(-0.011), np.float64(0.1136)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_expense_ratio ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0788), np.float64(-0.0072), np.float64(-0.0929), np.float64(0.0298), np.float64(0.1076), np.float64(0.0204), np.float64(-0.0362), np.float64(0.0413), np.float64(-0.0137), np.float64(0.0256)]
+Last 10 dims:  [np.float64(-0.0287), np.float64(0.009), np.float64(-0.0044), np.float64(0.0437), np.float64(-0.0738), np.float64(0.001), np.float64(0.0818), np.float64(-0.0568), np.float64(0.0032), np.float64(0.068)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_exit_load ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0322), np.float64(-0.0396), np.float64(-0.0653), np.float64(-0.0031), np.float64(0.0934), np.float64(0.054), np.float64(-0.0251), np.float64(0.0749), np.float64(-0.0568), np.float64(0.0134)]
+Last 10 dims:  [np.float64(-0.0146), np.float64(-0.0232), np.float64(-0.0391), np.float64(0.0142), np.float64(-0.0531), np.float64(0.0057), np.float64(0.0441), np.float64(-0.055), np.float64(-0.0229), np.float64(0.0653)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_min_sip ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0312), np.float64(-0.0163), np.float64(-0.1138), np.float64(-0.0409), np.float64(0.025), np.float64(0.0368), np.float64(0.028), np.float64(0.1144), np.float64(-0.0458), np.float64(-0.0002)]
+Last 10 dims:  [np.float64(-0.0222), np.float64(-0.0008), np.float64(-0.043), np.float64(0.0397), np.float64(-0.0333), np.float64(-0.0192), np.float64(0.0579), np.float64(-0.0103), np.float64(-0.0045), np.float64(0.0752)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_min_lumpsum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0308), np.float64(0.0012), np.float64(-0.1025), np.float64(-0.0341), np.float64(0.0516), np.float64(0.0531), np.float64(0.0271), np.float64(0.1224), np.float64(-0.072), np.float64(0.0109)]
+Last 10 dims:  [np.float64(-0.0468), np.float64(0.0119), np.float64(-0.0196), np.float64(0.0113), np.float64(-0.0534), np.float64(0.0124), np.float64(0.041), np.float64(-0.0822), np.float64(0.0516), np.float64(0.0958)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_benchmark ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0226), np.float64(-0.0321), np.float64(-0.0962), np.float64(-0.0045), np.float64(0.0658), np.float64(0.0307), np.float64(-0.0307), np.float64(0.0482), np.float64(-0.0582), np.float64(0.0189)]
+Last 10 dims:  [np.float64(0.0094), np.float64(0.0424), np.float64(0.0038), np.float64(-0.0404), np.float64(-0.0202), np.float64(-0.0182), np.float64(0.1202), np.float64(-0.0681), np.float64(-0.0071), np.float64(0.0954)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_risk_level ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0661), np.float64(-0.045), np.float64(-0.0698), np.float64(-0.0148), np.float64(0.1064), np.float64(0.0593), np.float64(-0.0672), np.float64(0.0666), np.float64(-0.0605), np.float64(0.0131)]
+Last 10 dims:  [np.float64(-0.0314), np.float64(0.0382), np.float64(-0.0308), np.float64(0.0052), np.float64(-0.0241), np.float64(-0.0241), np.float64(0.0874), np.float64(-0.088), np.float64(0.0193), np.float64(0.0968)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_fund_manager ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(-0.0381), np.float64(-0.0117), np.float64(-0.1043), np.float64(-0.0051), np.float64(0.0756), np.float64(0.0543), np.float64(-0.0731), np.float64(0.0023), np.float64(-0.0683), np.float64(-0.0035)]
+Last 10 dims:  [np.float64(-0.0358), np.float64(0.0246), np.float64(0.0027), np.float64(-0.0289), np.float64(-0.0028), np.float64(-0.0175), np.float64(0.073), np.float64(-0.0783), np.float64(0.0289), np.float64(0.0916)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_aum ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0381), np.float64(-0.0581), np.float64(-0.1451), np.float64(0.0391), np.float64(0.0691), np.float64(0.0499), np.float64(0.0142), np.float64(0.0977), np.float64(-0.0512), np.float64(0.0299)]
+Last 10 dims:  [np.float64(-0.0507), np.float64(0.0079), np.float64(-0.0356), np.float64(-0.0053), np.float64(-0.0472), np.float64(-0.0102), np.float64(0.0669), np.float64(-0.0902), np.float64(0.0087), np.float64(0.0688)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_objective ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0117), np.float64(-0.0353), np.float64(-0.0587), np.float64(-0.0417), np.float64(0.0912), np.float64(0.0641), np.float64(-0.019), np.float64(0.0303), np.float64(-0.067), np.float64(0.003)]
+Last 10 dims:  [np.float64(-0.0257), np.float64(0.024), np.float64(-0.0107), np.float64(0.0029), np.float64(0.0203), np.float64(-0.0008), np.float64(0.0321), np.float64(-0.0447), np.float64(0.0025), np.float64(0.0478)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_tax ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0139), np.float64(-0.0553), np.float64(-0.0588), np.float64(-0.0486), np.float64(0.1141), np.float64(0.0972), np.float64(0.0242), np.float64(0.0586), np.float64(-0.0663), np.float64(0.0139)]
+Last 10 dims:  [np.float64(-0.0422), np.float64(0.0174), np.float64(-0.0347), np.float64(0.0197), np.float64(-0.0214), np.float64(-0.0114), np.float64(0.0863), np.float64(-0.052), np.float64(-0.0242), np.float64(0.0536)]
+
+--- hdfc-balanced-advantage-fund-direct-growth_stamp_duty ---
+Dimensions: 384
+L2 norm: 1.0000
+First 10 dims: [np.float64(0.0178), np.float64(-0.0197), np.float64(-0.0641), np.float64(0.0052), np.float64(0.0666), np.float64(0.0437), np.float64(-0.0085), np.float64(0.0678), np.float64(-0.0969), np.float64(0.0017)]
+Last 10 dims:  [np.float64(-0.0125), np.float64(0.0425), np.float64(-0.0376), np.float64(-0.0154), np.float64(-0.0313), np.float64(0.0277), np.float64(0.0961), np.float64(-0.0895), np.float64(-0.0157), np.float64(0.1097)]
+

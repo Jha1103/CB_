@@ -1,0 +1,786 @@
+[
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_expense_ratio",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "expense_ratio",
+    "text": "The expense ratio of HDFC Large Cap Fund Direct Growth is 1.03%.",
+    "value": "1.03%",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "expense_ratio"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_exit_load",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "exit_load",
+    "text": "Exit load of HDFC Large Cap Fund Direct Growth: 1% if redeemed within 1 year.",
+    "value": "1% if redeemed within 1 year",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "exit_load"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_min_sip",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "min_sip",
+    "text": "The minimum SIP investment for HDFC Large Cap Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "min_sip"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_min_lumpsum",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "min_lumpsum",
+    "text": "The minimum lumpsum investment for HDFC Large Cap Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "min_lumpsum"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_benchmark",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "benchmark",
+    "text": "The benchmark of HDFC Large Cap Fund Direct Growth is NIFTY 100 Total Return Index.",
+    "value": "NIFTY 100 Total Return Index",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "benchmark"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_risk_level",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "risk_level",
+    "text": "HDFC Large Cap Fund Direct Growth is rated Very High risk.",
+    "value": "Very High",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "risk_level"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_fund_manager",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "fund_manager",
+    "text": "HDFC Large Cap Fund Direct Growth is managed by Rahul Baijal, Dhruv Muchhal.",
+    "value": "Rahul Baijal, Dhruv Muchhal",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "fund_manager"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_aum",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "aum",
+    "text": "The AUM of HDFC Large Cap Fund Direct Growth is ₹39,933.37 Cr.",
+    "value": "₹39,933.37 Cr",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "aum"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_objective",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "investment_objective",
+    "text": "HDFC Large Cap Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.",
+    "value": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "investment_objective"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_tax",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "tax",
+    "text": "Tax implication for HDFC Large Cap Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "value": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "tax"
+    }
+  },
+  {
+    "id": "hdfc-large-cap-fund-direct-growth_stamp_duty",
+    "scheme": "HDFC Large Cap Fund Direct Growth",
+    "slug": "hdfc-large-cap-fund-direct-growth",
+    "category": "stamp_duty",
+    "text": "Stamp duty on investment for HDFC Large Cap Fund Direct Growth: 0.005% (from July 1st, 2020).",
+    "value": "0.005% (from July 1st, 2020)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category_type": "stamp_duty"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_expense_ratio",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "expense_ratio",
+    "text": "The expense ratio of HDFC Flexi Cap Direct Plan Growth is 0.77%.",
+    "value": "0.77%",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "expense_ratio"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_exit_load",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "exit_load",
+    "text": "Exit load of HDFC Flexi Cap Direct Plan Growth: 1% if redeemed within 1 year.",
+    "value": "1% if redeemed within 1 year",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "exit_load"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_min_sip",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "min_sip",
+    "text": "The minimum SIP investment for HDFC Flexi Cap Direct Plan Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "min_sip"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_min_lumpsum",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "min_lumpsum",
+    "text": "The minimum lumpsum investment for HDFC Flexi Cap Direct Plan Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "min_lumpsum"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_benchmark",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "benchmark",
+    "text": "The benchmark of HDFC Flexi Cap Direct Plan Growth is NIFTY 500 Total Return Index.",
+    "value": "NIFTY 500 Total Return Index",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "benchmark"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_risk_level",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "risk_level",
+    "text": "HDFC Flexi Cap Direct Plan Growth is rated Very High risk.",
+    "value": "Very High",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "risk_level"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_fund_manager",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "fund_manager",
+    "text": "HDFC Flexi Cap Direct Plan Growth is managed by Dhruv Muchhal, Amit Ganatra.",
+    "value": "Dhruv Muchhal, Amit Ganatra",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "fund_manager"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_aum",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "aum",
+    "text": "The AUM of HDFC Flexi Cap Direct Plan Growth is ₹1,13,606.47 Cr.",
+    "value": "₹1,13,606.47 Cr",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "aum"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_objective",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "investment_objective",
+    "text": "HDFC Flexi Cap Direct Plan Growth seeks to The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.",
+    "value": "The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "investment_objective"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_tax",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "tax",
+    "text": "Tax implication for HDFC Flexi Cap Direct Plan Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "value": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "tax"
+    }
+  },
+  {
+    "id": "hdfc-equity-fund-direct-growth_stamp_duty",
+    "scheme": "HDFC Flexi Cap Direct Plan Growth",
+    "slug": "hdfc-equity-fund-direct-growth",
+    "category": "stamp_duty",
+    "text": "Stamp duty on investment for HDFC Flexi Cap Direct Plan Growth: 0.005% (from July 1st, 2020).",
+    "value": "0.005% (from July 1st, 2020)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category_type": "stamp_duty"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_expense_ratio",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "expense_ratio",
+    "text": "The expense ratio of HDFC ELSS Tax Saver Fund Direct Plan Growth is 1.21%.",
+    "value": "1.21%",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "expense_ratio"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_exit_load",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "exit_load",
+    "text": "Exit load of HDFC ELSS Tax Saver Fund Direct Plan Growth: Nil.",
+    "value": "Nil",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "exit_load"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_min_sip",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "min_sip",
+    "text": "The minimum SIP investment for HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹500.",
+    "value": "₹500",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "min_sip"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_min_lumpsum",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "min_lumpsum",
+    "text": "The minimum lumpsum investment for HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹500.",
+    "value": "₹500",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "min_lumpsum"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_benchmark",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "benchmark",
+    "text": "The benchmark of HDFC ELSS Tax Saver Fund Direct Plan Growth is NIFTY 500 Total Return Index.",
+    "value": "NIFTY 500 Total Return Index",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "benchmark"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_risk_level",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "risk_level",
+    "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is rated Very High risk.",
+    "value": "Very High",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "risk_level"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_fund_manager",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "fund_manager",
+    "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is managed by Amar Kalkundrikar, Dhruv Muchhal.",
+    "value": "Amar Kalkundrikar, Dhruv Muchhal",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "fund_manager"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_aum",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "aum",
+    "text": "The AUM of HDFC ELSS Tax Saver Fund Direct Plan Growth is ₹15,991.78 Cr.",
+    "value": "₹15,991.78 Cr",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "aum"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_objective",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "investment_objective",
+    "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth seeks to The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.",
+    "value": "The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "investment_objective"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_lock_in",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "lock_in",
+    "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth has a 3-year lock-in period.",
+    "value": "3-year",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "lock_in"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_tax",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "tax",
+    "text": "Tax implication for HDFC ELSS Tax Saver Fund Direct Plan Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "value": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "tax"
+    }
+  },
+  {
+    "id": "hdfc-elss-tax-saver-fund-direct-plan-growth_stamp_duty",
+    "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "slug": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "category": "stamp_duty",
+    "text": "Stamp duty on investment for HDFC ELSS Tax Saver Fund Direct Plan Growth: 0.005% (from July 1st, 2020).",
+    "value": "0.005% (from July 1st, 2020)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category_type": "stamp_duty"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_expense_ratio",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "expense_ratio",
+    "text": "The expense ratio of HDFC Small Cap Fund Direct Growth is 0.78%.",
+    "value": "0.78%",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "expense_ratio"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_exit_load",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "exit_load",
+    "text": "Exit load of HDFC Small Cap Fund Direct Growth: 1% if redeemed within 1 year.",
+    "value": "1% if redeemed within 1 year",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "exit_load"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_min_sip",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "min_sip",
+    "text": "The minimum SIP investment for HDFC Small Cap Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "min_sip"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_min_lumpsum",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "min_lumpsum",
+    "text": "The minimum lumpsum investment for HDFC Small Cap Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "min_lumpsum"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_benchmark",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "benchmark",
+    "text": "The benchmark of HDFC Small Cap Fund Direct Growth is BSE 250 SmallCap Total Return Index.",
+    "value": "BSE 250 SmallCap Total Return Index",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "benchmark"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_risk_level",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "risk_level",
+    "text": "HDFC Small Cap Fund Direct Growth is rated Very High risk.",
+    "value": "Very High",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "risk_level"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_fund_manager",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "fund_manager",
+    "text": "HDFC Small Cap Fund Direct Growth is managed by Dhruv Muchhal, Chirag Setalvad.",
+    "value": "Dhruv Muchhal, Chirag Setalvad",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "fund_manager"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_aum",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "aum",
+    "text": "The AUM of HDFC Small Cap Fund Direct Growth is ₹41,890.86 Cr.",
+    "value": "₹41,890.86 Cr",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "aum"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_objective",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "investment_objective",
+    "text": "HDFC Small Cap Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.",
+    "value": "The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "investment_objective"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_tax",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "tax",
+    "text": "Tax implication for HDFC Small Cap Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "value": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "tax"
+    }
+  },
+  {
+    "id": "hdfc-small-cap-fund-direct-growth_stamp_duty",
+    "scheme": "HDFC Small Cap Fund Direct Growth",
+    "slug": "hdfc-small-cap-fund-direct-growth",
+    "category": "stamp_duty",
+    "text": "Stamp duty on investment for HDFC Small Cap Fund Direct Growth: 0.005% (from July 1st, 2020).",
+    "value": "0.005% (from July 1st, 2020)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Small Cap Fund Direct Growth",
+      "category_type": "stamp_duty"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_expense_ratio",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "expense_ratio",
+    "text": "The expense ratio of HDFC Balanced Advantage Fund Direct Growth is 0.78%.",
+    "value": "0.78%",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "expense_ratio"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_exit_load",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "exit_load",
+    "text": "Exit load of HDFC Balanced Advantage Fund Direct Growth: 1% if redeemed within 1 year (for units in excess of 15% of investment).",
+    "value": "1% if redeemed within 1 year (for units in excess of 15% of investment)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "exit_load"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_min_sip",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "min_sip",
+    "text": "The minimum SIP investment for HDFC Balanced Advantage Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "min_sip"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_min_lumpsum",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "min_lumpsum",
+    "text": "The minimum lumpsum investment for HDFC Balanced Advantage Fund Direct Growth is ₹100.",
+    "value": "₹100",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "min_lumpsum"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_benchmark",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "benchmark",
+    "text": "The benchmark of HDFC Balanced Advantage Fund Direct Growth is NIFTY 50 Hybrid Composite Debt 50:50 Index.",
+    "value": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "benchmark"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_risk_level",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "risk_level",
+    "text": "HDFC Balanced Advantage Fund Direct Growth is rated Very High risk.",
+    "value": "Very High",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "risk_level"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_fund_manager",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "fund_manager",
+    "text": "HDFC Balanced Advantage Fund Direct Growth is managed by Anil Bamboli, Arun Agarwal, Dhruv Muchhal.",
+    "value": "Anil Bamboli, Arun Agarwal, Dhruv Muchhal",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "fund_manager"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_aum",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "aum",
+    "text": "The AUM of HDFC Balanced Advantage Fund Direct Growth is ₹1,07,295.79 Cr.",
+    "value": "₹1,07,295.79 Cr",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "aum"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_objective",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "investment_objective",
+    "text": "HDFC Balanced Advantage Fund Direct Growth seeks to The scheme seeks to provide long-term capital appreciation/income by investing in a mix of equity and debt instruments.",
+    "value": "The scheme seeks to provide long-term capital appreciation/income by investing in a mix of equity and debt instruments.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "investment_objective"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_tax",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "tax",
+    "text": "Tax implication for HDFC Balanced Advantage Fund Direct Growth: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "value": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "tax"
+    }
+  },
+  {
+    "id": "hdfc-balanced-advantage-fund-direct-growth_stamp_duty",
+    "scheme": "HDFC Balanced Advantage Fund Direct Growth",
+    "slug": "hdfc-balanced-advantage-fund-direct-growth",
+    "category": "stamp_duty",
+    "text": "Stamp duty on investment for HDFC Balanced Advantage Fund Direct Growth: 0.005% (from July 1st, 2020).",
+    "value": "0.005% (from July 1st, 2020)",
+    "source_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+    "metadata": {
+      "amc": "HDFC Mutual Fund",
+      "scheme_name": "HDFC Balanced Advantage Fund Direct Growth",
+      "category_type": "stamp_duty"
+    }
+  }
+]
