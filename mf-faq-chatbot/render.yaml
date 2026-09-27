@@ -1,0 +1,3 @@
+build:
+  env:
+    TORCH_DEVICE: cpu
