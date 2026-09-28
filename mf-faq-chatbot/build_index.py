@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Build the vector store index from structured facts."""
+"""Pre-download embedding model and cache embeddings (cloud-based)."""
 import os
-import sys
 
-# Set environment variable to use CPU only
-os.environ["TORCH_DEVICE"] = "cpu"
+os.environ.setdefault("TORCH_DEVICE", "cpu")
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
 
 from src.loader import load_structured_facts
 from src.chunker import chunk_scheme_facts
-from src.vector_store import add_chunks, clear_collection, count_chunks
+from src.vector_store import initialize_store, count_chunks
 from src.config import DATA_DIR
 
 
@@ -21,12 +21,9 @@ def main():
     chunks = chunk_scheme_facts(facts)
     print(f"  Generated {len(chunks)} chunks")
 
-    print("Clearing existing collection...")
-    clear_collection()
-
-    print("Embedding and storing chunks...")
-    add_chunks(chunks)
-    print(f"  Stored {count_chunks()} chunks in ChromaDB")
+    print("Initializing in-memory store (downloads embeddings via API)...")
+    initialize_store(chunks)
+    print(f"  Stored {count_chunks()} chunks")
 
     print("Build complete!")
 

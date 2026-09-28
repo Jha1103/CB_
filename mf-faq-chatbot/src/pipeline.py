@@ -1,7 +1,6 @@
-"""End-to-end RAG pipeline."""
+"""End-to-end RAG pipeline (cloud-based, minimal memory)."""
 from typing import Dict, Any, Optional
 from src.classifier import classify_query
-from src.retriever import retrieve
 from src.generator import generate_answer
 from src.llm import generate_llm_answer, is_llm_available
 from src.memory import get_context_window
@@ -19,6 +18,7 @@ def process_query(query: str, session_id: Optional[str] = None) -> Dict[str, Any
     # Step 2: Retrieve (only for factual queries)
     chunks = []
     if query_type == "factual":
+        from src.retriever import retrieve
         chunks = retrieve(query)
 
     # Step 3: Get conversation history

@@ -1,9 +1,7 @@
-"""Flask web application for MF FAQ Assistant."""
+"""Flask web application for MF FAQ Assistant (cloud-based, minimal memory)."""
 import os
-import sys
 
-# Memory optimization: set before any imports
-os.environ.setdefault("TORCH_DEVICE", "cpu")
+# Memory optimization
 os.environ.setdefault("OMP_NUM_THREADS", "1")
 os.environ.setdefault("MKL_NUM_THREADS", "1")
 
@@ -21,7 +19,6 @@ def index():
 @app.route("/chat", methods=["POST"])
 def chat():
     """Process a chat message."""
-    # Lazy import to avoid loading heavy modules at startup
     from src.pipeline import process_query
 
     data = request.get_json()
@@ -51,9 +48,9 @@ def health():
     """Health check endpoint."""
     return jsonify({
         "status": "healthy",
-        "chunks_loaded": "lazy",
-        "embedding_model": "all-MiniLM-L6-v2",
-        "vector_db": "chroma",
+        "embedding": "cloud (Hugging Face API)",
+        "vector_store": "in-memory numpy",
+        "llm": "groq",
     })
 
 

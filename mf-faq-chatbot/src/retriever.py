@@ -1,7 +1,7 @@
-"""Retrieval module for MF FAQ."""
+"""Retrieval module for MF FAQ (cloud-based)."""
 from typing import List, Dict, Any
 from src.embedder import embed_query
-from src.vector_store import search
+from src.vector_store import search, initialize_store, is_initialized
 from src.config import TOP_K, SCORE_THRESHOLD
 import re
 
@@ -11,16 +11,25 @@ def retrieve(query: str) -> List[Dict[str, Any]]:
     Retrieve relevant chunks for a query.
     Returns filtered and ranked chunks.
     """
+    # Initialize store on first use
+    if not is_initialized():
+        from src.loader import load_structured_facts
+        from src.chunker import chunk_scheme_facts
+        from src.config import DATA_DIR
+        facts = load_structured_facts(DATA_DIR)
+        chunks = chunk_scheme_facts(facts)
+        initialize_store(chunks)
+
     # Embed the query
     query_embedding = embed_query(query)
 
-    # Search ChromaDB
+    # Search
     results = search(query_embedding, top_k=TOP_K)
 
     # Filter by score threshold
     filtered = [r for r in results if r["score"] >= SCORE_THRESHOLD]
 
-    # Query-category matching: boost chunks whose category matches the query intent
+    # Query-category matching
     query_lower = query.lower()
     category_keywords = {
         "expense_ratio": ["expense", "expense ratio", "ter", "total expense"],

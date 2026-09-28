@@ -1,87 +1,62 @@
-"""ChromaDB vector store operations."""
-import chromadb
-from chromadb.config import Settings
+"""In-memory vector store using numpy (no ChromaDB, minimal memory)."""
+import numpy as np
 from typing import List, Dict, Any, Optional
-from src.config import CHROMA_COLLECTION, CHROMA_PERSIST_DIR
+from src.embedder import embed_texts, cosine_similarity
 
-_client = None
-_collection = None
-
-
-def get_client():
-    """Get or create ChromaDB client."""
-    global _client
-    if _client is None:
-        _client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
-    return _client
+# In-memory storage
+_chunks: List[Dict[str, Any]] = []
+_embeddings: List[List[float]] = []
+_initialized = False
 
 
-def get_collection():
-    """Get or create the collection (lazy-loaded)."""
-    global _collection
-    if _collection is None:
-        client = get_client()
-        _collection = client.get_or_create_collection(
-            name=CHROMA_COLLECTION,
-            metadata={"hnsw:space": "cosine"}
-        )
-    return _collection
+def initialize_store(chunks: List[Dict[str, Any]]):
+    """Initialize the in-memory store with chunks."""
+    global _chunks, _embeddings, _initialized
 
+    if _initialized:
+        return
 
-def add_chunks(chunks: List[Dict[str, Any]]):
-    """Add chunks to the vector store."""
-    collection = get_collection()
-
-    ids = [c["id"] for c in chunks]
+    _chunks = chunks
     texts = [c["text"] for c in chunks]
-    metadatas = [c["metadata"] for c in chunks]
-
-    # Embed texts
-    from src.embedder import embed_texts
-    embeddings = embed_texts(texts)
-
-    collection.add(
-        ids=ids,
-        embeddings=embeddings,
-        documents=texts,
-        metadatas=metadatas
-    )
+    _embeddings = embed_texts(texts)
+    _initialized = True
+    print(f"Initialized in-memory store with {len(chunks)} chunks")
 
 
-def search(query_embedding: List[float], top_k: int = 3) -> List[Dict[str, Any]]:
-    """Search for similar chunks."""
-    collection = get_collection()
-    results = collection.query(
-        query_embeddings=[query_embedding],
-        n_results=top_k,
-        include=["documents", "metadatas", "distances"]
-    )
+def search(query_embedding: List[float], top_k: int = 5) -> List[Dict[str, Any]]:
+    """Search for similar chunks using cosine similarity."""
+    if not _initialized:
+        return []
 
-    chunks = []
-    if results["ids"] and results["ids"][0]:
-        for i, chunk_id in enumerate(results["ids"][0]):
-            chunks.append({
-                "id": chunk_id,
-                "text": results["documents"][0][i],
-                "metadata": results["metadatas"][0][i],
-                "distance": results["distances"][0][i],
-                "score": 1 - results["distances"][0][i],  # cosine similarity
-            })
-    return chunks
+    # Compute similarities
+    similarities = []
+    for i, emb in enumerate(_embeddings):
+        sim = cosine_similarity(query_embedding, emb)
+        similarities.append((i, sim))
+
+    # Sort by similarity (descending)
+    similarities.sort(key=lambda x: x[1], reverse=True)
+
+    # Return top-k results
+    results = []
+    for i, sim in similarities[:top_k]:
+        chunk = _chunks[i].copy()
+        chunk["score"] = sim
+        results.append(chunk)
+
+    return results
 
 
 def count_chunks() -> int:
     """Get the number of chunks in the store."""
-    collection = get_collection()
-    return collection.count()
+    return len(_chunks)
 
 
-def clear_collection():
-    """Delete and recreate the collection."""
-    global _collection
-    client = get_client()
-    try:
-        client.delete_collection(CHROMA_COLLECTION)
-    except Exception:
-        pass
-    _collection = None
+def is_initialized() -> bool:
+    """Check if the store is initialized."""
+    return _initialized
+
+
+def get_all_chunks() -> List[Dict[str, Any]]:
+    """Get all chunks (for initialization)."""
+    return _chunks
