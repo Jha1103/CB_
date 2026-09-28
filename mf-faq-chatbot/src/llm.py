@@ -22,7 +22,7 @@ if env_path.exists():
 
 # Configuration
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "qwen/qwen3.8-27b")
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 SYSTEM_PROMPT = """You are the MF FAQ Assistant. You answer factual questions about HDFC mutual fund schemes.
@@ -71,7 +71,7 @@ def generate_llm_answer(query: str, chunks: List[Dict[str, Any]], query_type: st
         }
 
     if query_type == "performance":
-        link = chunks[0]["metadata"].get("source_url", "https://www.hdfcfund.com") if chunks else "https://www.hdfcfund.com"
+        link = chunks[0].get("source_url", "https://www.hdfcfund.com") if chunks else "https://www.hdfcfund.com"
         return {
             "type": "performance",
             "answer": (
@@ -122,9 +122,9 @@ def generate_llm_answer(query: str, chunks: List[Dict[str, Any]], query_type: st
 
     # Build context from chunks
     context_parts = []
-    for chunk in chunks[:3]:
+    for chunk in chunks[:5]:
         text = chunk.get("text", "")
-        source = chunk.get("metadata", {}).get("source_url", "")
+        source = chunk.get("source_url", "")
         context_parts.append(f"- {text} (Source: {source})")
 
     context = "\n".join(context_parts) if context_parts else "No relevant context found."
@@ -153,15 +153,15 @@ def generate_llm_answer(query: str, chunks: List[Dict[str, Any]], query_type: st
         answer_text = response.choices[0].message.content.strip()
 
         # Extract source from chunks if available
-        source_url = chunks[0]["metadata"].get("source_url", "") if chunks else ""
-        scheme_name = chunks[0]["metadata"].get("scheme_name", "") if chunks else ""
+        source_url = chunks[0].get("source_url", "") if chunks else ""
+        scheme_name = chunks[0].get("scheme_name", "") if chunks else ""
 
         return {
             "type": "factual",
             "answer": answer_text,
             "source": source_url,
             "scheme": scheme_name,
-            "confidence": chunks[0].get("score", 0.0) if chunks else 0.0,
+            "confidence": 0.9,
         }
 
     except Exception as e:

@@ -1,41 +1,28 @@
-"""Retrieval module for MF FAQ (cloud-based)."""
+"""Retrieval module - keyword-based (no embedding API needed)."""
 from typing import List, Dict, Any
-from src.embedder import embed_query
-from src.vector_store import search, initialize_store, is_initialized
-from src.config import TOP_K, SCORE_THRESHOLD
 import re
 
 
 def retrieve(query: str) -> List[Dict[str, Any]]:
     """
-    Retrieve relevant chunks for a query.
-    Returns filtered and ranked chunks.
+    Retrieve relevant chunks using keyword matching.
+    No embedding API needed - works offline.
     """
-    # Initialize store on first use
-    if not is_initialized():
-        from src.loader import load_structured_facts
-        from src.chunker import chunk_scheme_facts
-        from src.config import DATA_DIR
-        facts = load_structured_facts(DATA_DIR)
-        chunks = chunk_scheme_facts(facts)
-        initialize_store(chunks)
+    from src.loader import load_structured_facts
+    from src.chunker import chunk_scheme_facts
+    from src.config import DATA_DIR
 
-    # Embed the query
-    query_embedding = embed_query(query)
+    facts = load_structured_facts(DATA_DIR)
+    chunks = chunk_scheme_facts(facts)
 
-    # Search
-    results = search(query_embedding, top_k=TOP_K)
-
-    # Filter by score threshold
-    filtered = [r for r in results if r["score"] >= SCORE_THRESHOLD]
-
-    # Query-category matching
     query_lower = query.lower()
+
+    # Category keywords for matching
     category_keywords = {
         "expense_ratio": ["expense", "expense ratio", "ter", "total expense"],
         "exit_load": ["exit load", "exit", "redemption charge", "exit charge"],
-        "min_sip": ["minimum sip", "min sip", "sip amount", "minimum investment sip"],
-        "min_lumpsum": ["minimum lumpsum", "min lumpsum", "lumpsum amount", "minimum investment lumpsum"],
+        "min_sip": ["minimum sip", "min sip", "sip amount", "minimum investment sip", "sip"],
+        "min_lumpsum": ["minimum lumpsum", "min lumpsum", "lumpsum amount", "minimum investment lumpsum", "lumpsum"],
         "benchmark": ["benchmark", "index", "nifty", "bse", "sensex"],
         "risk_level": ["risk", "riskometer", "risk level", "very high", "moderate", "low risk"],
         "fund_manager": ["fund manager", "manager", "managed by", "who manages", "who is the fund manager", "fund manager of"],
@@ -56,10 +43,16 @@ def retrieve(query: str) -> List[Dict[str, Any]]:
             query_category = category
             break
 
-    # If we detected a category, filter results to that category
+    # Filter chunks by category
     if query_category:
-        category_results = [r for r in filtered if r["metadata"].get("category_type") == query_category]
-        if category_results:
-            return category_results
+        filtered = [c for c in chunks if c["category"] == query_category]
+        if filtered:
+            # Add score for compatibility
+            for c in filtered:
+                c["score"] = 0.9
+            return filtered
 
-    return filtered
+    # Fallback: return all chunks with low score
+    for c in chunks:
+        c["score"] = 0.1
+    return chunks[:5]
